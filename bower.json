@@ -1,0 +1,20 @@
+{
+  "name": "tiny-merge",
+  "description": "Easily merge Arrays or Objects on Client or Server",
+  "main": "lib/tiny-merge.js",
+  "authors": [
+    "Jason Mulligan <jason.mulligan@avoidwork.com>"
+  ],
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "merge"
+  ],
+  "homepage": "https://github.com/avoidwork/tiny-merge",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
