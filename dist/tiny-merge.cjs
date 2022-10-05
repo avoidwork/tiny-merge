@@ -1,3 +1,14 @@
+/**
+ * tiny-merge
+ *
+ * @copyright 2022 Jason Mulligan <jason.mulligan@avoidwork.com>
+ * @license BSD-3-Clause
+ * @version 2.0.0
+ */
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
 function merge (a, b) {
 	if (a instanceof Object && b instanceof Object) {
 		Object.keys(b).forEach(function (i) {
@@ -18,4 +29,4 @@ function merge (a, b) {
 	return a;
 }
 
-merge.version = "{{VERSION}}";
+exports.merge = merge;

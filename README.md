@@ -5,8 +5,8 @@ Easily merge Arrays or Objects on Client or Server.
 
 ## Example
 ```javascript
-const merge = require("tiny-merge");
-let a = {},
+import {merge} from "tiny-merge";
+const a = {},
     b = {c: "Hello World"};
 
 console.log(merge(a, b).c); // "Hello World"
@@ -14,5 +14,5 @@ console.log(a.c); // "Hello World"
 ```
 
 ## License
-Copyright (c) 2015 Jason Mulligan
+Copyright (c) 2022 Jason Mulligan
 Licensed under the BSD-3 license
